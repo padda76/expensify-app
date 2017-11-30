@@ -12,7 +12,6 @@ export class AddExpensePage extends React.Component {
     render() {
         return (
             <div>
-                This is from my add expense component.
                 <ExpenseForm onSubmit={this.onSubmit} />
             </div>
         );
